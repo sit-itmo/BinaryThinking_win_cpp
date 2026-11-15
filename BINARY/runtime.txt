@@ -1,0 +1,34 @@
+57                   push        rdi  
+48 81 EC E8 00 00 00 sub         rsp,0E8h  
+48 8D 6C 24 20       lea         rbp,[rsp+20h]  
+48 8D 0D 92 16 01 00 lea         rcx,[__4497D160_hello@c (07FF7C05D3008h)]  
+E8 13 FA FF FF       call        __CheckForDebuggerJustMyCode (07FF7C05C138Eh)  
+90                   nop  
+48 8D 0D C5 92 00 00 lea         rcx,[string "\nHello World!\n" (07FF7C05CAC48h)]  
+E8 26 F8 FF FF       call        printf (07FF7C05C11AEh)  
+90                   nop  
+E8 DF F7 FF FF       call        test (07FF7C05C116Dh)  
+90                   nop  
+48 8D 0D AA 92 00 00 lea         rcx,[string "\x07" (07FF7C05CAC40h)]  
+E8 13 F8 FF FF       call        printf (07FF7C05C11AEh)  
+90                   nop  
+B9 01 00 00 00       mov         ecx,1  
+FF 15 81 09 01 00    call        qword ptr [__imp___acrt_iob_func (07FF7C05D2328h)]  
+48 8B C8             mov         rcx,rax  
+FF 15 68 09 01 00    
+90                   
+48 8D 0D 88 92 00 00 
+E8 F1 F7 FF FF       
+90                   
+B9 01 00 00 00       
+FF 15 5F 09 01 00      
+48 8B C8             
+FF 15 46 09 01 00    
+90                   
+E8 44 F8 FF FF       
+90                   
+33 C0                
+48 8D A5 C8 00 00 00 
+5F                   
+5D                   
+C3                   
