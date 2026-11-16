@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="doom_module.c" />
+    <ClCompile Include="doom_runtime.c" />
+    <ClCompile Include="doom_sound.c" />
+    <ClCompile Include="pixel_buffer.c" />
+    <ClCompile Include="stabel_diffusion.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="doom_internal.h" />
+  </ItemGroup>
+</Project>

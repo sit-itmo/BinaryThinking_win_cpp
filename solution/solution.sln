@@ -11,6 +11,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doom_app", "doom_app\doom_a
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "threads", "threads\threads.vcxproj", "{0B7769AC-781F-4DD7-8E1B-23A5837E6155}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doom_module", "doom_module\doom_module.vcxproj", "{78F9C2DF-6252-40FA-A755-8BF832796CF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		include\doom_module.h = include\doom_module.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +58,14 @@ Global
 		{0B7769AC-781F-4DD7-8E1B-23A5837E6155}.Release|x64.Build.0 = Release|x64
 		{0B7769AC-781F-4DD7-8E1B-23A5837E6155}.Release|x86.ActiveCfg = Release|Win32
 		{0B7769AC-781F-4DD7-8E1B-23A5837E6155}.Release|x86.Build.0 = Release|Win32
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Debug|x64.ActiveCfg = Debug|x64
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Debug|x64.Build.0 = Debug|x64
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Debug|x86.Build.0 = Debug|Win32
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Release|x64.ActiveCfg = Release|x64
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Release|x64.Build.0 = Release|x64
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Release|x86.ActiveCfg = Release|Win32
+		{78F9C2DF-6252-40FA-A755-8BF832796CF9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
